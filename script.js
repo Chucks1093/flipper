@@ -21,3 +21,5 @@ function getRandomColor(){
 function getRandomOpacity(){
   return (Math.random().toFixed(1));
 }
+
+window.addEventListener("DOMContentLoaded",changeColor)
